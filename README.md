@@ -25,6 +25,77 @@ Learnly has been designed to foster sharing of learning content in a visually co
 Users sign up for an account and post photos of what they have learnt and their learning milestones. Taking inspiration from Instagram, it’s an application that enables people to catalogue their learnings and make their learnings social. 
 
 
+## Instructions and Help
+
+### System Requirements
+
+In order to run this application, the user will preferably be running on a *nix based operation system (i.e. MacOS or Linux). However, Windows is supported due to the cross-platform nature of Python 3 but was not tested on.
+
+### Python 3
+
+The application requires Python 3 to be installed on your machine. To check if it is installed, you can enter the following command:
+
+```
+$ which python3
+```
+or
+
+```
+$ python3 --version
+```
+
+If you need to install Python 3, you can download the latest Python 3 version at [https://www.python.org/downloads/](https://www.python.org/downloads/ "https://www.python.org/downloads/").
+
+
+### Clone the git repository on your computer.
+```
+$ git clone https://github.com/GabrielWongAu/learnly-app.git
+```
+
+You can also download the entire repository as a zip file and unpack it on your computer if you do not have git.
+
+After cloning the repository, you need to change directory into the new learnly-app directory.
+```
+$ cd learnly-app
+```
+
+### Setting up a virtual environment 
+
+It is recommended to create a virtual environment to contain the application's dependencies in the one folder. This can be done by running the following commands.
+
+If you need to install Python's virtual environment module, run the following command:
+```
+$ pip install venv
+```
+Once venv has been installed, initalise the virtual environment by running the following command:  
+```
+$ python3 -m venv venv
+```
+
+To activate the virtual environment, run the following command:
+```
+$ source venv/bin/activate
+```
+
+Note: Once you have finished with the Learnly application, you can deactivate the virtual environment by running the following command:
+```
+$ deactivate
+```
+### Install Dependencies
+
+Modules will need to be installed before running the application. They can be installed by running the following command in your terminal:
+
+```
+$ pip install -r requirements.txt
+```
+
+### Run the program
+
+Run the program by running the following command
+
+```
+$ python src/main.py
+```
 
 ## Wireframes
 
